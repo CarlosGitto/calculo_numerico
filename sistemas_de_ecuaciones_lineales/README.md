@@ -28,7 +28,7 @@
 * Formula de recurrencia
     $$x_{i}^{\left(k+1\right)}=\frac {1}{a_{ii}}\left(b_{i}-\sum \limits_{j\neq i}{a_{ij}x_{j}^{\left(k\right)}}\right),i=1,2,3,...$$
 * Calculo del error
-    - Es la mayor diferencia que hay entre dos componentes de dos vectores semilla continuos
+    - Es la mayor diferencia que hay entre dos mismas componentes de dos vectores semilla continuos
     - $\varepsilon = max(abs(x_{k+1} - x_{k}))$
 
 ------------------------------------------
@@ -48,7 +48,7 @@
 * Formula de recurrencia
     $$ x_{i}^{(k+1)}=\frac{-\sum_{1\leq j\leq i-1}a_{ij}x_{j}^{(k+1)}-\sum_{i+1\leq j\leq n}a_{ij}x_{j}^{(k)}+b_{i}}{a_{ii}},i=1,...,n$$
 * Calculo del error
-    - Es la mayor diferencia que hay entre dos componentes de dos vectores semilla continuos
+    - Es la mayor diferencia que hay entre dos mismas componentes de dos vectores semilla continuos
     - $\varepsilon = max(abs(x_{k+1} - x_{k}))$
 
 ---------------------------------------------------------

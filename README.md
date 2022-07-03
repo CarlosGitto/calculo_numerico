@@ -17,7 +17,7 @@
 --------------------------------------------
 - ### Autovalores y autovectores
     + Metodo de la potencia
-    + Metodo de las potencias inversas
+    + Metodo de las potencia inversa
 ---------------------------------------------
 - ### Metodo de aproximacion
 
