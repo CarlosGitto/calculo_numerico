@@ -46,7 +46,7 @@
     - Repetir el procesos hasta llegar al error o numero de iteraciones que se desea
 
 * Formula de recurrencia
-    $$ x_{i}^{(k+1)}=\frac {-\sum _{1{\leq }j{\leq }i-1}a_{ij}x_{j}^{(k+1)}-\sum _{i+1{\leq }j{\leq }n}a_{ij}x_{j}^{(k)}+b_{i}}{a_{ii}},i=1,...,n\$$
+    $$ x_{i}^{(k+1)}=\frac {-\sum _{1\leq j\leq i-1}a_{ij}x_{j}^{(k+1)}-\sum _{i+1\leq j\leq n}a_{ij}x_{j}^{(k)}+b_{i}}{a_{ii}},i=1,...,n\$$
 * Calculo del error
     - Es la mayor diferencia que hay entre dos componentes de dos vectores semilla continuos
     - $\varepsilon = max(abs(x_{k+1} - x_{k}))$
