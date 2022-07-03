@@ -8,10 +8,10 @@
 ### Minimos cuadrados:
 * Datos                      
     - Una serie de puntos y sus imagenes
-    - Un conjunto de transformaciones que conforman una base de $\theta$
+    - Un conjunto de transformaciones que conforman una base $B$ de $\theta$
 
 
-* Formula
+* Formula de minimos cuadrados
     - $ \theta^{T} . \theta . \overline{a} = \theta^{T} . \overline{y}$
 
 * Procedimiento
