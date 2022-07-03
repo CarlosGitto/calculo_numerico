@@ -4,7 +4,7 @@
 > Este directorio contiene un archivo para cada metodo correspondiente con su respectivo codigo y ademas hay un archivo llamado `example_function` donde se declara la funcion para la cual se estan buscando raices, si se desea cambiar la funcion que se evalua, este archivo debe ser modificado
 
 ### Formula de un sistema de ecuaciones lineales
- Considerando  $A . x = b$, con la condición de que $\displaystyle a_{ii}{\neq }0,i=1,...,n$.
+ Considerando  $A . x = b$, con la condición de que $a_{ii} \neq 0,i=1,...,n$.
 + Donde:
     - A es una matriz de coeficientes
     - x un vector columna de incognitas
