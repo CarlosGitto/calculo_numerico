@@ -33,7 +33,7 @@
 
 ------------------------------------------
 
-### Gauss - seidel:
+### Gauss-Seidel:
 * Datos                      
     - Matriz de coeficientes `A`
     - Vector semilla $x_{0}$
