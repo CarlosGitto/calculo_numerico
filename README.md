@@ -32,9 +32,9 @@
 ----------------------------------------------
 - ### Derivacion numerica
 
-    1. Derivadas primeras:
+    1. [Derivadas primeras:](derivacion_numerica/README.md#derivada-primera)
 
-        - Hacia adelante
+        - [Hacia adelante](derivacion_numerica/README.md#hacia-adelante)
         - Hacia atras
         - Central
         - Asimetrica
@@ -63,14 +63,14 @@
 
     3. Extrapolacion de richardson
 
-    6. Romberg
-    7. Gauss - Legendre
+    6. Richardson – Romberg
+    7. Gauss Legendre
 
 ------------------------------------
 - ### EDO con valores iniciales
 
-    1. euler
-    2. runge-kutta
+    1. Euler
+    2. Runge - Kutta
 
 
 ------------------------------------
