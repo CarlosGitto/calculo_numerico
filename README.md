@@ -5,66 +5,74 @@
 
 ## Listado de Contenidos y su directorio:
 - ### Raices de ecuaciones no lineales:
-    + Biseccion
-    + Regula - false
-    + Secante
-    + Newton - raphson
-    + Punto fijo
+    1. [Biseccion](raices_sistemas_de_ecuaciones_no_lineales/README.md#bisección) 
+    2. [Regula - falsi](raices_sistemas_de_ecuaciones_no_lineales/README.md#regula---falsi) 
+    3. [Secante](raices_sistemas_de_ecuaciones_no_lineales/README.md#secante) 
+    4. [Newton - raphson](raices_sistemas_de_ecuaciones_no_lineales/README.md#newton---raphson) 
+    5. [Punto fijo](raices_sistemas_de_ecuaciones_no_lineales/README.md#) 
 ----------------------------------------
 - ### Sistemas de ecuaciones lineales:
-    + Jacobi
-    + Gauss seidel
+    1. [Jacobi](sistemas_de_ecuaciones_lineales/README.md#jacobi)
+    2. [Gauss seidel](sistemas_de_ecuaciones_lineales/README.md#gauss-seidel)
 --------------------------------------------
 - ### Autovalores y autovectores
-    + Metodo de la potencia
-    + Metodo de las potencia inversa
+    1. Metodo de la potencia
+    2. Metodo de las potencia inversa
 ---------------------------------------------
 - ### Metodo de aproximacion
 
-    + Minimos cuadrados (aproximacion lineal)
+    1. Minimos cuadrados (aproximacion lineal)
 ------------------------------------------------------
 - ### Interpolacion
 
-    + Metodo directo
-    + Lagrange
-    + Polinomios de newton
+    1. Metodo directo
+    2. Lagrange
+    3. Polinomios de newton
 
 ----------------------------------------------
-- ### Derivacion numerica!
+- ### Derivacion numerica
 
-### Derivadas primeras
+    1. Derivadas primeras:
 
-- hacia adelante
-- hacia atras
-- central
-- asimetrica
-- asimetrica hacia atras
-- extrapolacion de richardson
+        - Hacia adelante
+        - Hacia atras
+        - Central
+        - Asimetrica
+        - Asimetrica hacia atras
+        - Extrapolacion de richardson
+    2. Derivadas segundas
+    3. Derivadas terceras
+    4. Derivadas cuartas
 
-### Derivadas segundas
-### Derivadas terceras
-### Derivadas cuartas
+----------------------------------------------
 
 - ### Ecuaciones diferenciales ordinarias(EDO)
 
-- EDO con valores de contorno
+    1. EDO con valores de contorno
 
+--------------------------------
 - ### Integracion numerica
 
-- trapecio simple
-- trapecio compuesto
-- simpson simple
-- simpson compuesto
-- extrapolacion de richardson
+    1. Trapecio simple
+        - Trapecio simple
+        - Trapecio compuesto
 
-- romberg
-- gauss - legendre
+    2. Simpson
+        - Simpson simple
+        - Simpson compuesto
 
+    3. Extrapolacion de richardson
+
+    6. Romberg
+    7. Gauss - Legendre
+
+------------------------------------
 - ### EDO con valores iniciales
 
-- euler
-- runge-kutta
+    1. euler
+    2. runge-kutta
 
 
+------------------------------------
 - ### Diferencia central
 
