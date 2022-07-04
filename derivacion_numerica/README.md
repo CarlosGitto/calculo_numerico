@@ -21,21 +21,21 @@
     - ### Hacia adelante
         >Se usa `unicamente` cuando se analiza el extremo izquierdo de la tabla de valores
         + Formula
-            $$\displaystyle f'_{s} = \frac{1}{h}[f_{s+1}-f_{s}]$$
+            $$\displaystyle f_{s}' = \frac{1}{h}[f_{s+1}-f_{s}]$$
         + Orden de error `1`
 
     - ### Hacia atras
         >Se usa `unicamente` cuando se analiza el extremo derecho de la tabla de valores
 
         + Formula
-            $$\displaystyle f'_{s} = \frac{1}{h}[f_{s}-f_{s-1}]$$
+            $$\displaystyle f_{s}' = \frac{1}{h}[f_{s}-f_{s-1}]$$
         + Orden de error `1`
 
     - ### Central
         >Se usa `unicamente` cuando se analizan los valores internos de la tabla de valores
         
         + Formula
-            $$\displaystyle f'_{s} = \frac{1}{2h}[f_{s+1}-f_{s-1}]$$
+            $$\displaystyle f_{s}' = \frac{1}{2h}[f_{s+1}-f_{s-1}]$$
         + Orden de error `2`
 
     - ### Asimetrica hacia adelante
@@ -44,7 +44,7 @@
         >Se usa `unicamente` cuando se analiza el extremo izquierdo de la tabla de valores
 
         + Formula
-            $$\displaystyle f'_{s} = -\frac{3}{2h}f_{s}+\frac{2}{h}f_{s+1}-\frac{1}{2h}f_{s+2}$$
+            $$\displaystyle f_{s}' = -\frac{3}{2h}f_{s}+\frac{2}{h}f_{s+1}-\frac{1}{2h}f_{s+2}$$
         + Orden de error `2`
     - ### Asimetrica hacia atras
         >Es una formula mas exacta que la [derivada hacia atras](#hacia-atras)
@@ -54,7 +54,7 @@
         >$f_{s}$ es el valor de la funcion en el valor de `x` seleccionado
 
         + Formula
-            $$\displaystyle f'_{s} = \frac{3}{2h}f_{s}-\frac{2}{h}f_{s-1}+\frac{1}{2h}f_{s-2}$$
+            $$\displaystyle f_{s}' = \frac{3}{2h}f_{s}-\frac{2}{h}f_{s-1}+\frac{1}{2h}f_{s-2}$$
         + Orden de error `2`
 
 ------------------------------------------
@@ -74,7 +74,7 @@
         >Se usa `unicamente` cuando se analizan los valores internos de la tabla de valores
         
         + Formula
-            $$\displaystyle f''_{s} = \frac{1}{h^{2}}[f_{s+1}-2f_{s}+f_{s-1}]$$
+            $$\displaystyle f_{s}'' = \frac{1}{h^{2}}[f_{s+1}-2f_{s}+f_{s-1}]$$
         + Orden de error `2`
 
 ------------------------------------------
@@ -94,7 +94,7 @@
         >Se usa `unicamente` cuando se analizan los valores internos de la tabla de valores
         
         + Formula
-            $$\displaystyle f'''_{s} = \frac{1}{2h^{3}}[-f_{s-2}+2f_{s-1}-2f_{s+1}+f_{s+2}]$$
+            $$\displaystyle f_{s}''' = \frac{1}{2h^{3}}[-f_{s-2}+2f_{s-1}-2f_{s+1}+f_{s+2}]$$
         + Orden de error `2`
 
 ---------------------------------------------------------
@@ -115,7 +115,7 @@
         >Se usa `unicamente` cuando se analizan los valores internos de la tabla de valores
         
         + Formula
-            $$\displaystyle f^{iv}_{s} = \frac{1}{h^{4}}f_{s-2}-4f_{s-1}+6f_{s}-4f_{s+1}+f_{s+2}$$
+            $$\displaystyle {f_{s}}^{iv} = \frac{1}{h^{4}}[f_{s-2}-4f_{s-1}+6f_{s}-4f_{s+1}+f_{s+2}]$$
         + Orden de error `2`
 
 ------------------------------------------
