@@ -115,7 +115,7 @@
         >Se usa `unicamente` cuando se analizan los valores internos de la tabla de valores
         
         + Formula
-            $$f^{iv}_{s} = \frac{1}{h^{4}}[f_{s-2}-4f_{s-1}+6f_{s}-4f_{s+1}+f_{s+2}]$$
+            $$\displaystyle{f^{iv}_{s} = \frac{1}{h^{4}}[f_{s-2}-4f_{s-1}+6f_{s}-4f_{s+1}+f_{s+2}]}$$
         + Orden de error `2`
 
 ------------------------------------------
